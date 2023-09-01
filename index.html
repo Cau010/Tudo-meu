@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de Menu</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="ampliar.css">
+    <link rel="stylesheet" href="ampliar2.css">
+	
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Sobre nós</a></li>
+			<li><a href="#">Contato</a></li>
+			<li class="login"><a href="#" id="login-link">Login</a></li>
+		</ul>
+	</nav>
+
+	<!-- Janela modal de Login -->
+	<div id="login-modal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Login</h2>
+			<form>
+				<label for="username">Nome de usuário:</label>
+				<input type="text" id="username" name="username">
+				<label for="password">Senha:</label>
+				<input type="password" id="password" name="password">
+				<button type="submit">Entrar</button>
+			</form>
+			<p>Não tem uma conta? <a href="#">Crie uma aqui</a></p>
+		</div>
+	</div>
+
+
+    <h1>Imagens e JavaScript</h1>
+    <div class="container">
+		<img src="montains.jpg" alt="Imagem 1" width="300" height="200" onclick="ampliarImagem(this)">
+		<img src="sonhos.jpg" alt="Imagem 2" width="300" height="200" onclick="ampliarImagem(this)">
+		<img src="sol.jpg" alt="Imagem 3" width="300" height="200" onclick="ampliarImagem(this)">
+	</div>
+
+    <br>
+
+    <div class="gallery">
+		<img src="imagem1.jpg" alt="Imagem 1" width="300" height="200px" class="gallery-image" onclick="ampliarImagem(this)">
+		<img src="imagem2.jpg" alt="Imagem 2" width="300" height="200" class="gallery-image" onclick="ampliarImagem(this)">
+		<img src="imagem3.jpg" alt="Imagem 3" width="300" height="200" class="gallery-image" onclick="ampliarImagem(this)">
+	</div>
+	<div class="ampliada-container">
+		<img src="" alt="Imagem Ampliada" class="ampliada-image">
+	</div>
+
+    <br>
+
+    <img src="imagem1.jpg" alt="Imagem 1" width="300" height="200" onmouseover="mostrarMensagem('Esta é a Imagem 1')" onmouseout="mostrarMensagem('')">
+
+
+	<div id="mensagem"></div>
+
+
+    <script src="menu.js"></script>
+    <script src="ampliar.js"></script>
+    <script src="ampliar2.js"></script>
+</body>
+</html>

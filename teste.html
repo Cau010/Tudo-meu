@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="acs.css">
+</head>
+<header>
+
+
+  <nav>
+    <ul>
+
+      <li class="login"><a href="#" id="login-link">Login</a></li>
+
+    </ul>
+  </nav>
+
+  <div id="login-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form>
+        <label for="username">Nome de usuário:</label>
+        <input type="text" id="username" name="username">
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password">
+        <iconify-icon id="olho" icon="mdi:eye"></iconify-icon>
+
+        <button type="submit">Entrar</button>
+
+      </form>
+      <p>Não tem uma conta? <a href="#">Crie uma aqui</a></p>
+    </div>
+  </div>
+
+  <script src="./teste.js"></script>
+  <div class="tudo">
+    <h1>Calculadora simples</h1>
+    <input type="number" id="num1">
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="num2">
+  <script>  </script>
+  
+    <p onload=""result.textContent = 'Resultado: ';"" id="result"></p>
+
+
+</header>
+
+</html>

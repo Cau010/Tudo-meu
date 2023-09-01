@@ -1,0 +1,48 @@
+Atividade: Criação de Página de Carrinho de Compras com Produtos de Tecnologia
+Objetivo: Utilizando os conhecimentos adquiridos no projeto anterior sobre tecnologias, os
+alunos irão aplicar seus conhecimentos em desenvolvimento web para criar uma página de
+carrinho de compras com no mínimo 6 produtos relacionados à área de tecnologia.
+Instruções:
+Acesso ao Site Modelo: Acessem o site modelo disponibilizado no Classroom, que serve
+como referência para a estrutura e design da página de carrinho de compras.
+Seleção de Produtos: Cada aluno deverá escolher no mínimo 6 produtos relacionados à
+área de tecnologia para serem incluídos na página de carrinho de compras. Os produtos
+podem ser dispositivos eletrônicos, acessórios, gadgets ou qualquer outro item tecnológico.
+Estrutura da Página: Baseando-se no site modelo, os alunos devem criar a estrutura básica
+da página de carrinho de compras. A página deve incluir:
+Cabeçalho com logo, menu de navegação e ícone do carrinho.
+Seção de listagem de produtos com imagens, nomes, preços e botões para
+adicionar/remover produtos.
+Seção do carrinho de compras, exibindo os produtos selecionados, quantidades e subtotal.
+Total geral da compra.
+Formulário simplificado para informações de entrega e pagamento.
+Funcionalidade de Carrinho: Os alunos devem implementar a funcionalidade de adicionar e
+remover produtos do carrinho de compras. Ao clicar nos botões de adicionar/remover, a
+quantidade do produto no carrinho deve ser atualizada, assim como o subtotal e o total
+geral da compra.
+Estilização e Responsividade: Utilizando CSS, os alunos devem estilizar a página para
+garantir uma aparência agradável e coesa. Além disso, a página deve ser responsiva, ou
+seja, adaptar-se bem a diferentes tamanhos de tela, como smartphones, tablets e
+computadores.
+Comentários no Código: Os alunos devem adicionar comentários no código HTML e CSS
+para explicar as diferentes seções, classes e IDs utilizados, bem como a função de cada
+parte do código.
+Entrega e Apresentação: Os alunos devem entregar os arquivos HTML, CSS e quaisquer
+recursos necessários (como imagens) em uma pasta compactada. Além disso, cada aluno
+deve apresentar sua página durante a aula, explicando suas escolhas de design, produtos e
+funcionalidades implementadas.
+Avaliação:
+A atividade será avaliada com base nos seguintes critérios:
+
+Funcionalidade do Carrinho: Verificação da correta adição e remoção de produtos,
+atualização dos totais e do carrinho de compras.
+Design e Estilização: Avaliação da estética da página, aplicação de princípios de design,
+escolha de cores, fontes e layout.
+Responsividade: Verificação da aparência e usabilidade da página em diferentes
+dispositivos.(OPCIONAL)
+Organização do Código: Avaliação da estrutura do código HTML e CSS, incluindo
+comentários explicativos.
+Seleção de Produtos: Análise da relevância dos produtos escolhidos em relação ao tema de
+tecnologia.
+Lembre-os da importância de seguir as boas práticas de desenvolvimento web e de se
+basearem no site modelo para orientação.
